@@ -24,7 +24,7 @@
 
 # 轮转流程
 
-![](https://docs.corp.kuaishou.com/image/api/external/load/out?code=fcAA2f9NjlOd09AkhF8Ao6z0h:7784351481126598587fcAA2f9NjlOd09AkhF8Ao6z0h:1763041913200)
+![[Pasted image 20251113212347.png]]
 
 轮转维护大致可以分为四个阶段
 
