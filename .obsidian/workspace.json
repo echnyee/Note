@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "2025.11"
             }
+          },
+          {
+            "id": "b4068843972fb7e0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.10.3"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,13 +169,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/2025.11.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025.11 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -195,7 +206,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c76f17020342f99",
+  "active": "b4068843972fb7e0",
   "lastOpenFiles": [
     "工作/文档/百度网盘下载方法.md",
     "工作/2025.11.md",
