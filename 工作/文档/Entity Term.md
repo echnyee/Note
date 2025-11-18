@@ -1,3 +1,28 @@
+### Entity Term值如何产生
+
+1. 从数据库中创建的Entity
+    
+
+主要指的是玩家的Avatar或者一些会落地状态数据到数据库的Stub Entity，对于这类的Entity每一次从数据库创建的时候都自增一次其Term值即可，并读取修改之后的值，对应Python大概为如下的查询语句：
+
+![[Pasted image 20251118112604.png]]
+
+Entity的Term值依赖于数据库的原子自增保证不会出现重复的情况，MongoDB的规范指出，对于单Document的多操作是保证原子的，可以参见：[https://docs.mongodb.com/manual/core/write-operations-atomicity/](https://docs.mongodb.com/manual/core/write-operations-atomicity/)
+
+  
+
+2. 一些不需要从数据库中创建，但生命周期具有延续性的Entity
+    
+
+这类主要是对应的一些不需要落地数据的Stub，他们的状态完全在内存中，只要服务器没有关机它就必然存在提供一些全局的服务，如果因为异常情况导致其下线了，框架需要通过一定的机制再将其调度创建出来。对于这一类型的Entity，比较简单的方法也是可以通过MongoDB为其分配一个自增的Term值即可。
+
+  
+
+3. 生命周期无延续性，不需要存盘也不需要恢复的临时Entity
+    
+
+这类的Entity在游戏服务器中也比较常见，比如说创生物，无持续状态的Entity例如Battle Allocator等，他们每次创建Entity ID都是随机生成的，对于这类给他们的Term值赋值一个特殊的值作为标记即可，例如赋值为0。
+
 DB进程在处理存盘请求的逻辑：
 
 1. Term值大于等于数据库中的值有效，如果小于，则无效，不能存盘，可以存到备库，并提醒Entity其已经失效。（出现大于数据库中Term的值的情况应该不会有，除非之前出现过数据库异常）通过单doucument的原子操作实现。
