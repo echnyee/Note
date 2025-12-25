@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/2025.12.md",
+                "file": "工作/文档/不停服维护方案（AB服轮转维护）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025.12"
+              "title": "不停服维护方案（AB服轮转维护）"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/2025.12.md",
+                "file": "工作/文档/不停服维护方案（AB服轮转维护）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025.12 的大纲"
+              "title": "不停服维护方案（AB服轮转维护） 的大纲"
             }
           },
           {
@@ -211,8 +211,8 @@
   },
   "active": "53d078485bf3c20e",
   "lastOpenFiles": [
-    "工作/2026.1.md",
     "工作/2025.12.md",
+    "工作/2026.1.md",
     "工作/文档/分布式.md",
     "工作/文档/Mailbox.md",
     "工作/文档/Entity Term.md",
