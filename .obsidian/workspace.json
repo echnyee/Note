@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/2025.12.md",
+                "file": "工作/文档/AOI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025.12"
+              "title": "AOI"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/2025.12.md",
+                "file": "工作/文档/AOI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025.12 的大纲"
+              "title": "AOI 的大纲"
             }
           },
           {
@@ -209,11 +209,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "53d078485bf3c20e",
+  "active": "975ca32a06adcf9c",
   "lastOpenFiles": [
-    "工作/文档/不停服维护方案（AB服轮转维护）.md",
-    "工作/2025.12.md",
     "工作/2026.1.md",
+    "工作/文档/AOI.md",
+    "工作/2025.12.md",
+    "工作/文档/不停服维护方案（AB服轮转维护）.md",
     "工作/文档/分布式.md",
     "工作/文档/Mailbox.md",
     "工作/文档/Entity Term.md",
