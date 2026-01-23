@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "2026.1"
             }
+          },
+          {
+            "id": "f2804e27c6d651e7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.4"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -171,13 +183,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/2026.1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026.1 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -199,17 +210,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "53d078485bf3c20e",
+  "active": "f2804e27c6d651e7",
   "lastOpenFiles": [
     "工作/文档/AOI.md",
     "工作/2026.1.md",
