@@ -53,12 +53,14 @@
             "id": "7fff09ba16c70a28",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.5"
+                "file": "工作/2026.1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.11.5"
+              "icon": "lucide-file",
+              "title": "2026.1"
             }
           }
         ],
@@ -183,12 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "工作/2026.1.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2026.1 的大纲"
             }
           },
           {
