@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "2026.1"
             }
+          },
+          {
+            "id": "7fff09ba16c70a28",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.5"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -171,13 +183,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/2026.1.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026.1 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -209,7 +220,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "53d078485bf3c20e",
+  "active": "7fff09ba16c70a28",
   "lastOpenFiles": [
     "Pasted image 20251113212347.png",
     "工作/2025.12.md",
