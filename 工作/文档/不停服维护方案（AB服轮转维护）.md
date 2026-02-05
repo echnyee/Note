@@ -15,7 +15,7 @@
 
 需要部署两套独立但共享数据库的服务器集群，并通过轮转流程实现版本切换，使业务逻辑进行迭代更新，MongoDB和Redis使用的是同一套。另外新老服之间需要进行连通，可以使用类似hub集群之类的方式。在这个结构下，理论上只要修改的范围在logic,router,dbm,cluster之内，都可以通过不停服维护进行更新。
 
-![](https://docs.corp.kuaishou.com/image/api/external/load/out?code=fcAA2f9NjlOd09AkhF8Ao6z0h:3847903550919647143fcAA2f9NjlOd09AkhF8Ao6z0h:1766658609231)
+![[Pasted image 20260205092553.png]]
 
 # 优势
 
@@ -47,7 +47,7 @@
 
 ## 轮转维护流程图
 
-![](https://docs.corp.kuaishou.com/image/api/external/load/out?code=fcAA2f9NjlOd09AkhF8Ao6z0h:260107952317864285fcAA2f9NjlOd09AkhF8Ao6z0h:1766658609231)
+![[Pasted image 20260205092615.png]]
 
 轮转维护大致可以分为五个阶段
 
@@ -320,4 +320,4 @@ end
 
 目前的方案中，玩家在老服受限并无法登录新服的时间在阶段2和阶段3，这段时间应该在几分钟之内。但是后续的阶段4会长一些（等待进行中的重要副本结束），那么还有另外一种方案，在阶段2就限制创建副本，然后等待一段时间后（等待进行中的重要副本结束）此时再进行轮转，此时已经没有进行中的重要副本了，可以更快速更彻底的直接把老服玩家切到新服，例如客户端指向变了之后，老服推送一个请求到在线客户端直接让客户端重登进入新服。这样对于玩家在新老服登录的顶号，RankService的转发这些新老服共存的支持就不是很必要了，轮转的复杂度可以降低。当然对玩家的影响会大一些，会有比较长的一段时间没法新创副本。
 
-![](https://docs.corp.kuaishou.com/image/api/external/load/out?code=fcAA2f9NjlOd09AkhF8Ao6z0h:616651704362559163fcAA2f9NjlOd09AkhF8Ao6z0h:1766658609234)
+![[Pasted image 20260205092641.png]]
