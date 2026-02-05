@@ -188,7 +188,7 @@
                 "file": "工作/2026.2.md",
                 "followCursor": false,
                 "showSearch": true,
-                "searchQuery": "borad"
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "2026.2 的大纲"
@@ -225,6 +225,7 @@
   },
   "active": "53d078485bf3c20e",
   "lastOpenFiles": [
+    "Pasted image 20260205102827.png",
     "工作/2026.4.md",
     "工作/2026.3.md",
     "工作/2026.2.md",
