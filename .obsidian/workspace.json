@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#aoi  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,7 +189,7 @@
                 "file": "工作/文档/AOI.md",
                 "followCursor": false,
                 "showSearch": true,
-                "searchQuery": ""
+                "searchQuery": "borad"
               },
               "icon": "lucide-list",
               "title": "AOI 的大纲"
@@ -226,6 +226,7 @@
   },
   "active": "7fff09ba16c70a28",
   "lastOpenFiles": [
+    "Pasted image 20260205093546.png",
     "工作/2026.1.md",
     "工作/文档/实时存档.md",
     "工作/文档/不停服维护方案（AB服轮转维护）.md",
