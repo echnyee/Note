@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/2026.2.md",
+                "file": "工作/文档/跨境汇款.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026.2"
+              "title": "跨境汇款"
             }
           },
           {
@@ -237,10 +237,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4136bf95d49950d3",
+  "active": "975ca32a06adcf9c",
   "lastOpenFiles": [
-    "工作/文档/分布式.md",
     "工作/2026.2.md",
+    "工作/文档/跨境汇款.md",
+    "工作/文档/分布式.md",
     "Pasted image 20260209141107.png",
     "工作/2026.1.md",
     "工作/2025.12.md",
