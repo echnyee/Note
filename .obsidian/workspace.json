@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/文档/AOI.md",
+                "file": "工作/文档/extendAOI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AOI"
+              "title": "extendAOI"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/文档/AOI.md",
+                "file": "工作/文档/extendAOI.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AOI 的大纲"
+              "title": "extendAOI 的大纲"
             }
           },
           {
@@ -191,7 +191,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -211,7 +211,12 @@
   },
   "active": "7fff09ba16c70a28",
   "lastOpenFiles": [
+    "工作/文档/Entity Term.md",
+    "工作/文档/extendAOI.md",
+    "Pasted image 20260214180207.png",
+    "Pasted image 20260214180154.png",
     "工作/2026.2.md",
+    "工作/文档/AOI.md",
     "工作/文档/十字链表重构.md",
     "Pasted image 20260214175959.png",
     "工作/文档/场景管理.md",
@@ -223,12 +228,8 @@
     "Pasted image 20260214155528.png",
     "工作/文档/不停服维护方案（AB服轮转维护）.md",
     "工作/文档/实时存盘.md",
-    "工作/文档/Entity Term.md",
-    "工作/文档/AOI.md",
     "工作/文档/玩家生命周期.md",
     "Pasted image 20260214110436.png",
-    "Pasted image 20260214110402.png",
-    "Pasted image 20260214110349.png",
     "工作/文档/跨境汇款.md",
     "工作/文档/分布式.md",
     "工作/2026.1.md",
