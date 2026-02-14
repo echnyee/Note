@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/文档/跨境汇款.md",
+                "file": "工作/文档/玩家生命周期.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "跨境汇款"
+              "title": "玩家生命周期"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/2026.2.md",
+                "file": "工作/文档/玩家生命周期.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026.2 的大纲"
+              "title": "玩家生命周期 的大纲"
             }
           },
           {
@@ -219,7 +219,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -237,9 +237,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "975ca32a06adcf9c",
+  "active": "4136bf95d49950d3",
   "lastOpenFiles": [
+    "工作/文档/AOI.md",
+    "image.png",
+    "工作/文档/玩家生命周期.md",
+    "Pasted image 20260214104531.png",
+    "Pasted image 20260214104518.png",
+    "Pasted image 20260214104500.png",
     "工作/2026.2.md",
+    "工作/文档/实时存盘.md",
     "工作/文档/跨境汇款.md",
     "工作/文档/分布式.md",
     "Pasted image 20260209141107.png",
@@ -249,21 +256,15 @@
     "Pasted image 20260205102827.png",
     "工作/2026.4.md",
     "工作/2026.3.md",
-    "工作/文档/AOI.md",
     "Pasted image 20260205093546.png",
-    "工作/文档/实时存档.md",
     "工作/文档/不停服维护方案（AB服轮转维护）.md",
     "Pasted image 20260205092641.png",
     "Pasted image 20260205092615.png",
     "Pasted image 20260205092553.png",
     "工作/文档/Entity Term.md",
-    "Pasted image 20251113212347.png",
-    "Pasted image 20260123115747.png",
     "工作/文档/Mailbox.md",
     "[分布式.md",
-    "Pasted image 20251127105135.png",
     "工作/文档/百度网盘下载方法.md",
-    "Pasted image 20251118144439.png",
     "不停服维护.md",
     "工作/文档",
     "未命名",
