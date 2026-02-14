@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/2026.2.md",
+                "file": "工作/文档/场景管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026.2"
+              "title": "场景管理"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/2026.2.md",
+                "file": "工作/文档/场景管理.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026.2 的大纲"
+              "title": "场景管理 的大纲"
             }
           },
           {
@@ -225,29 +225,31 @@
   },
   "active": "4136bf95d49950d3",
   "lastOpenFiles": [
+    "Pasted image 20260214155807.png",
+    "Pasted image 20260214155752.png",
+    "Pasted image 20260214155528.png",
+    "工作/2026.2.md",
+    "工作/文档/场景管理.md",
+    "工作/文档/不停服维护方案（AB服轮转维护）.md",
+    "工作/文档/实时存盘.md",
     "工作/文档/Entity Term.md",
+    "工作/文档/AOI.md",
+    "工作/文档/玩家生命周期.md",
     "Pasted image 20260214110436.png",
     "Pasted image 20260214110402.png",
     "Pasted image 20260214110349.png",
-    "工作/文档/玩家生命周期.md",
-    "工作/文档/AOI.md",
     "image.png",
     "Pasted image 20260214104531.png",
     "Pasted image 20260214104518.png",
     "Pasted image 20260214104500.png",
-    "工作/2026.2.md",
-    "工作/文档/实时存盘.md",
     "工作/文档/跨境汇款.md",
     "工作/文档/分布式.md",
     "Pasted image 20260209141107.png",
     "工作/2026.1.md",
     "工作/2025.12.md",
     "工作/2025.11.md",
-    "Pasted image 20260205102827.png",
     "工作/2026.4.md",
     "工作/2026.3.md",
-    "Pasted image 20260205093546.png",
-    "工作/文档/不停服维护方案（AB服轮转维护）.md",
     "工作/文档/Mailbox.md",
     "[分布式.md",
     "工作/文档/百度网盘下载方法.md",
