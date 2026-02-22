@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/2026.2.md",
+                "file": "工作/文档/场景管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026.2"
+              "title": "场景管理"
             }
           }
         ],
@@ -225,8 +225,8 @@
   },
   "active": "7fff09ba16c70a28",
   "lastOpenFiles": [
-    "工作/文档/场景管理.md",
     "工作/2026.2.md",
+    "工作/文档/场景管理.md",
     "工作/文档/跨境汇款.md",
     "工作/文档/玩家生命周期.md",
     "工作/文档/实时存盘.md",
